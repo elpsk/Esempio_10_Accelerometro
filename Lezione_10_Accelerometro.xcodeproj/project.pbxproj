@@ -1,0 +1,284 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB04A8811472C1AC00E996AF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB04A8801472C1AC00E996AF /* UIKit.framework */; };
+		AB04A8831472C1AC00E996AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB04A8821472C1AC00E996AF /* Foundation.framework */; };
+		AB04A8851472C1AC00E996AF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB04A8841472C1AC00E996AF /* CoreGraphics.framework */; };
+		AB04A88B1472C1AC00E996AF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AB04A8891472C1AC00E996AF /* InfoPlist.strings */; };
+		AB04A88D1472C1AC00E996AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB04A88C1472C1AC00E996AF /* main.m */; };
+		AB04A8911472C1AD00E996AF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB04A8901472C1AD00E996AF /* AppDelegate.m */; };
+		AB04A8941472C1AD00E996AF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB04A8931472C1AD00E996AF /* ViewController.m */; };
+		AB04A8971472C1AD00E996AF /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB04A8951472C1AD00E996AF /* ViewController.xib */; };
+		AB04A89E1472C33300E996AF /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB04A89D1472C33300E996AF /* CoreMotion.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AB04A87C1472C1AC00E996AF /* Lezione_10_Accelerometro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lezione_10_Accelerometro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB04A8801472C1AC00E996AF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AB04A8821472C1AC00E996AF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AB04A8841472C1AC00E996AF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AB04A8881472C1AC00E996AF /* Lezione_10_Accelerometro-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Lezione_10_Accelerometro-Info.plist"; sourceTree = "<group>"; };
+		AB04A88A1472C1AC00E996AF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AB04A88C1472C1AC00E996AF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AB04A88E1472C1AD00E996AF /* Lezione_10_Accelerometro-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Lezione_10_Accelerometro-Prefix.pch"; sourceTree = "<group>"; };
+		AB04A88F1472C1AD00E996AF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AB04A8901472C1AD00E996AF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AB04A8921472C1AD00E996AF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AB04A8931472C1AD00E996AF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AB04A8961472C1AD00E996AF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		AB04A89D1472C33300E996AF /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB04A8791472C1AC00E996AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB04A89E1472C33300E996AF /* CoreMotion.framework in Frameworks */,
+				AB04A8811472C1AC00E996AF /* UIKit.framework in Frameworks */,
+				AB04A8831472C1AC00E996AF /* Foundation.framework in Frameworks */,
+				AB04A8851472C1AC00E996AF /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB04A8711472C1AC00E996AF = {
+			isa = PBXGroup;
+			children = (
+				AB04A8861472C1AC00E996AF /* Lezione_10_Accelerometro */,
+				AB04A87F1472C1AC00E996AF /* Frameworks */,
+				AB04A87D1472C1AC00E996AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB04A87D1472C1AC00E996AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB04A87C1472C1AC00E996AF /* Lezione_10_Accelerometro.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB04A87F1472C1AC00E996AF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AB04A89D1472C33300E996AF /* CoreMotion.framework */,
+				AB04A8801472C1AC00E996AF /* UIKit.framework */,
+				AB04A8821472C1AC00E996AF /* Foundation.framework */,
+				AB04A8841472C1AC00E996AF /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AB04A8861472C1AC00E996AF /* Lezione_10_Accelerometro */ = {
+			isa = PBXGroup;
+			children = (
+				AB04A88F1472C1AD00E996AF /* AppDelegate.h */,
+				AB04A8901472C1AD00E996AF /* AppDelegate.m */,
+				AB04A8921472C1AD00E996AF /* ViewController.h */,
+				AB04A8931472C1AD00E996AF /* ViewController.m */,
+				AB04A8951472C1AD00E996AF /* ViewController.xib */,
+				AB04A8871472C1AC00E996AF /* Supporting Files */,
+			);
+			path = Lezione_10_Accelerometro;
+			sourceTree = "<group>";
+		};
+		AB04A8871472C1AC00E996AF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB04A8881472C1AC00E996AF /* Lezione_10_Accelerometro-Info.plist */,
+				AB04A8891472C1AC00E996AF /* InfoPlist.strings */,
+				AB04A88C1472C1AC00E996AF /* main.m */,
+				AB04A88E1472C1AD00E996AF /* Lezione_10_Accelerometro-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB04A87B1472C1AC00E996AF /* Lezione_10_Accelerometro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB04A89A1472C1AD00E996AF /* Build configuration list for PBXNativeTarget "Lezione_10_Accelerometro" */;
+			buildPhases = (
+				AB04A8781472C1AC00E996AF /* Sources */,
+				AB04A8791472C1AC00E996AF /* Frameworks */,
+				AB04A87A1472C1AC00E996AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lezione_10_Accelerometro;
+			productName = Lezione_10_Accelerometro;
+			productReference = AB04A87C1472C1AC00E996AF /* Lezione_10_Accelerometro.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB04A8731472C1AC00E996AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Cutaway SRL";
+			};
+			buildConfigurationList = AB04A8761472C1AC00E996AF /* Build configuration list for PBXProject "Lezione_10_Accelerometro" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AB04A8711472C1AC00E996AF;
+			productRefGroup = AB04A87D1472C1AC00E996AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB04A87B1472C1AC00E996AF /* Lezione_10_Accelerometro */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB04A87A1472C1AC00E996AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB04A88B1472C1AC00E996AF /* InfoPlist.strings in Resources */,
+				AB04A8971472C1AD00E996AF /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB04A8781472C1AC00E996AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB04A88D1472C1AC00E996AF /* main.m in Sources */,
+				AB04A8911472C1AD00E996AF /* AppDelegate.m in Sources */,
+				AB04A8941472C1AD00E996AF /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AB04A8891472C1AC00E996AF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB04A88A1472C1AC00E996AF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AB04A8951472C1AD00E996AF /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB04A8961472C1AD00E996AF /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB04A8981472C1AD00E996AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AB04A8991472C1AD00E996AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB04A89B1472C1AD00E996AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Lezione_10_Accelerometro/Lezione_10_Accelerometro-Prefix.pch";
+				INFOPLIST_FILE = "Lezione_10_Accelerometro/Lezione_10_Accelerometro-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AB04A89C1472C1AD00E996AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Lezione_10_Accelerometro/Lezione_10_Accelerometro-Prefix.pch";
+				INFOPLIST_FILE = "Lezione_10_Accelerometro/Lezione_10_Accelerometro-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB04A8761472C1AC00E996AF /* Build configuration list for PBXProject "Lezione_10_Accelerometro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB04A8981472C1AD00E996AF /* Debug */,
+				AB04A8991472C1AD00E996AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB04A89A1472C1AD00E996AF /* Build configuration list for PBXNativeTarget "Lezione_10_Accelerometro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB04A89B1472C1AD00E996AF /* Debug */,
+				AB04A89C1472C1AD00E996AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB04A8731472C1AC00E996AF /* Project object */;
+}
